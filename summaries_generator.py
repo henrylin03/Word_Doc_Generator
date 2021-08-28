@@ -22,6 +22,7 @@ final_dir = os.path.join(current_dir, rf"{teaching_period} {subject}")
 
 if not os.path.exists(final_dir):
     os.makedirs(final_dir)
+else:
     print("Error: folder already exists")
 
 
