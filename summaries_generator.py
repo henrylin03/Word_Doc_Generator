@@ -20,10 +20,10 @@ current_dir = os.getcwd()
 
 final_dir = os.path.join(current_dir, rf"{teaching_period} {subject}")
 
-if not os.path.exists(final_dir):
-    os.makedirs(final_dir)
-else:
+if os.path.exists(final_dir):
     print("Error: folder already exists")
+else:
+    os.makedirs(final_dir)
 
 
 # loop and title each topic as title formatting
