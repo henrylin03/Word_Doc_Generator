@@ -1,4 +1,4 @@
-# Word Doc Generator
+# :open_file_folder: Word Doc Generator :open_file_folder:
 Python-based application that generates a series of .docx files in a new folder.
 
 ## Background
